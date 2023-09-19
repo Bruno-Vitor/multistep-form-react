@@ -7,6 +7,10 @@
   margin: 0 auto;
   position: relative;
   margin-bottom: 2rem;
+
+  @media (max-width: 500px) {
+    gap: 0.5rem;
+  }
 }
 
 .steps::after {
